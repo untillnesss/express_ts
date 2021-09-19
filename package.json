@@ -1,0 +1,26 @@
+{
+  "name": "express_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "rm -rf ./dist && tsc -w",
+    "dev": "nodemon ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/untillnesss/express_ts.git"
+  },
+  "author": "said",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/untillnesss/express_ts/issues"
+  },
+  "homepage": "https://github.com/untillnesss/express_ts#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "nodemon": "^2.0.12"
+  }
+}
